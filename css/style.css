@@ -81,32 +81,44 @@ html {
 
 
 .hero ul li {
-    font-size: 5vw;
+    font-size: 4.9vw;
     color: #FFF;
     line-height: 1.35;
     padding: 5px 0;
     margin-bottom: 15px;
 }
+.hero ul li p{
+    width: max-content;
+    margin: 0 auto;
+}
 .hero ul li.one{
-    background: linear-gradient(to left, #3B1616, #3D1616);
+    background: linear-gradient(to left, #D1312D, #3D1616);
     margin-left: 10px;
     border-radius: 10px 0 0 10px;
+}
+.hero ul li.one p{
+    padding-right: 10px;
 }
 
 .hero ul li.two{
     background: linear-gradient(to right, #3B1615, #1B1918);
 }
 
+
 .hero ul li.three{
     background: linear-gradient(to right, #D1312D, #3D1616);
     margin-right: 10px;
-    border-radius:0 10px 10px 0;
+    border-left:0 10px 10px 0;
+}
+.hero ul li.three p{
+    padding-left: 10px;
 }
 
 .hero ul li.four{
     background: linear-gradient(to left, #3B1615, #1B1918);
     margin-bottom: 0px;
 }
+
 
 
 .hero ul img {
